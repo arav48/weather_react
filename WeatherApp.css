@@ -1,0 +1,61 @@
+/* WeatherApp.css */
+.weather-app-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 200px;
+    text-align: center;
+    background-image:url('https://static.vecteezy.com/system/resources/previews/023/861/760/original/abstract-background-abstract-colorful-background-halftone-colorful-background-free-vector.jpg');
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* LocationSelector.css */
+  .location-selector {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #43c293;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* WeatherCard.css */
+  .weather-card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

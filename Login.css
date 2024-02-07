@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/010/405/551/large_2x/modern-blue-abstract-background-blue-abstract-use-for-business-corporate-institution-poster-template-party-festive-seminar-blue-futuristic-background-eps10-illustration-free-vector.jpg');
+    background-size: cover; /* or 'contain' based on your preference */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 100px auto; /* Center the container */
+    padding: 100px;
+    border: 1px solid #0c0808;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(107, 192, 219); /* Set the container background color */
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4475b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.alert {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
